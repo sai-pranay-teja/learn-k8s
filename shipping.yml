@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: shipping
+spec:
+  containers:
+  - name: shipping
+    image: 581798224530.dkr.ecr.us-east-1.amazonaws.com/shipping:1.0.0
