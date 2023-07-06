@@ -39,5 +39,4 @@ metadata:
   name: frontend
   annotations: 
     eks.amazonaws.com/role-arn: arn:aws:iam::581798224530:role/ssm-for-eks
-spec:
-  ServiceAccountName: frontend
+
