@@ -1,7 +1,7 @@
 git:
 	git pull
 
-apply:
+apply: git
 	kubectl apply -f *
 
 destroy:
