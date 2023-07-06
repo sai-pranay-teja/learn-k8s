@@ -5,6 +5,10 @@ metadata:
   labels:
     component: frontend
 spec:
+  initContainers:
+  - name: init-myservice
+    image: 581798224530.dkr.ecr.us-east-1.amazonaws.com/aws-params:1.0.1
+    args: [sample:jenkins_user]
   containers:
   - name: frontend
     image: 581798224530.dkr.ecr.us-east-1.amazonaws.com/frontend:1.0.3
