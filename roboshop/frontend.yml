@@ -23,7 +23,7 @@ spec:
   initContainers:
   - name: ssm-for-parameters
     image: 581798224530.dkr.ecr.us-east-1.amazonaws.com/aws-params:1.0.5
-    args: ["jenkins_user"]
+    args: ["sample:jenkins_user"]
 
 
 
