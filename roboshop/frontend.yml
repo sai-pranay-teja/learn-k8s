@@ -22,7 +22,7 @@ spec:
     image: 581798224530.dkr.ecr.us-east-1.amazonaws.com/frontend:1.0.3
   initContainers:
   - name: ssm-for-parameters
-    image: 581798224530.dkr.ecr.us-east-1.amazonaws.com/aws-params:1.0.5
+    image: 581798224530.dkr.ecr.us-east-1.amazonaws.com/aws-params:1.0.6
     args: ["sample:jenkins_user"]
 
 
