@@ -5,4 +5,4 @@ apply: git
 	kubectl apply -f roboshop/
 
 destroy:
-	kubectl destroy -f roboshop/
+	kubectl delete -f roboshop/
