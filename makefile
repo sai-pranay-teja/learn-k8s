@@ -2,7 +2,7 @@ git:
 	git pull
 
 apply: git
-	kubectl apply -f *
+	kubectl apply -f roboshop/
 
 destroy:
-	kubectl destroy -f *
+	kubectl destroy -f roboshop/
