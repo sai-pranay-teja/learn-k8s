@@ -18,12 +18,12 @@ metadata:
 spec:
   serviceAccountName: cart
   containers:
-  - name: cart
-    image: 581798224530.dkr.ecr.us-east-1.amazonaws.com/cart:1.0.3
+    - name: cart
+      image: 581798224530.dkr.ecr.us-east-1.amazonaws.com/cart:1.0.3
   initContainers:
-  - name: ssm-for-parameters
-    image: 581798224530.dkr.ecr.us-east-1.amazonaws.com/aws-params:1.0.6
-    args: ["sample:jenkins_user"]
+    - name: ssm-for-parameters
+      image: 581798224530.dkr.ecr.us-east-1.amazonaws.com/aws-params:1.0.6
+      args: ["sample:jenkins_user"]
 
 
 
