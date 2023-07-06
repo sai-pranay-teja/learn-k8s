@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: shipping
-    image: 581798224530.dkr.ecr.us-east-1.amazonaws.com/shipping:1.0.0
+    image: 581798224530.dkr.ecr.us-east-1.amazonaws.com/shipping:1.0.1
 
 
 ---
