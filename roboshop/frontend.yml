@@ -5,6 +5,7 @@ metadata:
   annotations: 
     eks.amazonaws.com/role-arn: arn:aws:iam::581798224530:role/role-for-eks
 
+  
 ---
 
 
@@ -15,7 +16,7 @@ metadata:
   labels:
     component: frontend
 spec:
-  ServiceAccountName: frontend
+  serviceAccountName: frontend
   containers:
   - name: frontend
     image: 581798224530.dkr.ecr.us-east-1.amazonaws.com/frontend:1.0.3
