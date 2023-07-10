@@ -4,6 +4,6 @@ metadata:
   name: schema-load
 spec:
   containers:
-  - name: schema-load
-    image: 581798224530.dkr.ecr.us-east-1.amazonaws.com/schema-load
-    args: ["first", "second"]
+    - name: schema-load
+      image: 581798224530.dkr.ecr.us-east-1.amazonaws.com/schema-load
+      args: [ "first", "second" ]
